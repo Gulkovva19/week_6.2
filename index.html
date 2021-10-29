@@ -6,72 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/week_6.2/assets/styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/week_6.2/assets/styles/styles.css">
     <title>Document</title>
-    <style>
-        .container {
-            width: 1400px;
-            height: 800px;
-            background-color: #F7F3D8;
-            border: 1px solid red;
-        }
-
-        .general {
-            width: 1299px;
-            height: 699px;
-            margin-left: 50px;
-            margin-top: 50px;
-            background-color: rgb(255, 255, 255);
-            display: grid;
-            grid-template-rows: 1fr 3fr 3fr;
-        }
-
-        .header {
-            grid-row: 1 / 2;
-            grid-column: 1 / 4;
-            display: grid;
-            grid-template-columns: 1fr 5fr 1fr;
-            border: 1px solid red;
-        }
-
-        .logo {
-            grid-column: 1 / 2;
-            margin: 20px;
-            border: 1px solid red;
-        }
-
-        .menu {
-            grid-column: 2 / 3;
-            border: 1px solid red;
-            align-content: center;
-        }
-
-        .menu-1,
-        .menu-2,
-        .menu-3 {
-            align-content: center;
-            margin: 10%;
-            border: 1px solid red;
-        }
-
-
-
-        .button {
-            grid-column: 3 / 4;
-            margin: 20px
-        }
-
-        .opisanie {
-            grid-row: 2 / 3;
-            grid-column: 1 / 4;
-            border: 1px solid red;
-        }
-
-        .poisk {
-            grid-row: 3 / 4;
-            grid-column: 1 / 4;
-            border: 1px solid red;
-        }
-    </style>
 </head>
 
 <body>
@@ -86,12 +23,25 @@
                 </nav>
                 <button class="button">Login</button>
             </header>
-            <div class="opisanie">
-                opisanie
-            </div>
-            <div class="poisk">
-                poisk
-            </div>
+            <main class="content">
+                <div class="opisanie">
+                    <p class="stroka-1">
+                        Make New Friends over
+                    </p>
+                    <h1 class="stroka-2">
+                        Beach Football
+                    </h1>
+                    <p class="stroka-3">
+                        Challenge your friends and play together a game <br />
+                        of Beach Football at your nearest beach.
+                    </p>
+                    <input class="input" type="search" placeholder="Search beach arenas">
+                    <p class="stroka-4"> <span id="popular"> Popular Beach Arenas: </span> Virginia, California, Texas
+                    </p>
+                </div>
+                <img class="man" src="/week_6.2/assets/images/man.png" alt="man">
+                <img class="elements" src="/week_6.2/assets/images/Elements.png" alt="elements">
+            </main>
         </div>
     </div>
 </body>

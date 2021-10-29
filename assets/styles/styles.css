@@ -1,0 +1,105 @@
+.container {
+    width: 1400px;
+    height: 800px;
+    background-color: #F7F3D8;
+    border: 1px solid red;
+}
+
+.general {
+    width: 1299px;
+    height: 699px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: #FFFEF6;
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+    font-family: 'Open Sans';
+    border-radius: 10px;
+}
+
+.header {
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+
+.logo {
+    grid-column: 1 / 2;
+    margin: 20px;
+}
+
+.menu {
+    grid-column: 2 / 3;
+    align-content: center;
+}
+
+.menu-1,
+.menu-2,
+.menu-3 {
+    align-content: center;
+    margin: 7%;
+    font-size: 15pt;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.button {
+    grid-column: 3 / 4;
+    margin: 20px;
+    font-size: 18pt;
+    border-radius: 5px;
+}
+
+.content {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.opisanie {
+    grid-column: 1/2;
+    padding-left: 100px;
+    padding-top: 70px;
+}
+
+.stroka-1 {
+    font-size: 22pt;
+}
+
+.stroka-2 {
+    font-size: 35pt;
+}
+
+.stroka-3 {
+    font-size: 15pt;
+}
+
+.stroka-4 {
+    font-size: 12pt;
+}
+
+#popular {
+    font-weight: bolder;
+}
+
+.man {
+    grid-column: 2/3;
+    height: 79.5vh;
+    width: 33vw;
+    border-radius: 10px;
+}
+
+.elements {
+    grid-column: 2/3;
+}
+
+.input {
+    grid-column: 1/2;
+    width: 350px;
+    height: 40px;
+    border: 1px solid rgb(62, 172, 53);
+    border-radius: 5px;
+    margin-top: 50px;
+}
