@@ -33,9 +33,6 @@
 .menu {
     grid-column: 2 / 3;
     align-content: center;
-    background-image: url("../images/man.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .menu-items {
@@ -92,6 +89,9 @@
     height: 79.5vh;
     width: 33vw;
     border-radius: 10px;
+    background-image: url("../images/man.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .elements {
