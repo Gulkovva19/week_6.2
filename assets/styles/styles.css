@@ -98,11 +98,38 @@
     grid-column: 2/3;
 }
 
-.input {
-    grid-column: 1/2;
+.form__place {
+    height: 40px;
+}
+
+.form__input {
+    border: none;
     width: 350px;
     height: 40px;
-    border: 1px solid rgb(62, 172, 53);
-    border-radius: 5px;
-    margin-top: 50px;
+    background-color: #FFFEF6;
+}
+
+.form__button {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(63, 119, 77);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.form {
+    display: flex;
+    border: 1px solid rgb(63, 119, 77);
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.place {
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    height: 50px;
 }
